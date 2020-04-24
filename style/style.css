@@ -1,0 +1,385 @@
+p {
+   font-size: 16px;
+   line-height: 27px;
+}
+.menu { 
+    background-color: #1d2126;
+    width: 1900px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+    .emptyplace-1 {
+       height: 80px;
+       width: 640px;  
+    }
+    .emptyplace-2 {
+        height: 80px;
+        width: 200px;
+        float: right;
+    }
+
+    .logo img {
+      float: left;
+      margin-left: -430px;
+    }
+
+        .menu ul li {
+           width: 84px;
+           height: 84px ;
+           display: inline-block;
+           list-style: none;
+           margin-top: 20px;
+           margin: 8px;
+        }
+
+       .menu ul li a {
+          color: white;
+          opacity: 75%;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 14px;
+       }
+
+        .menu ul li a:hover {
+          color: #23b7a4;
+          opacity: 100%;
+          border: 2px solid #23b7a4;
+          border-radius: 4px;
+          padding: 5px;
+        }
+
+
+.section-welcome {
+    position: relative;
+    padding-top: 0;
+    background-image: url(../image/flower.png);
+    width: 1900px;
+    height: 660px;
+    margin: 0 auto;  
+}
+
+   .welcome {
+      position: absolute;
+      top: 30%;
+      left: 20%;
+      color: cornsilk;
+    }
+       h1 {
+        text-transform: uppercase;
+       }
+       .btns {
+           padding-top: 25px;
+       }
+
+       .btns a {
+           color: white;
+           text-decoration: none;
+           text-transform: uppercase;
+           font-size: 14px;
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+           border: 2px solid white;
+           border-radius: 6px;
+           padding: 12px;  
+        }
+        .btns a:hover {
+           background-color:#23b7a4;
+           border: 2px solid #23b7a4;
+           border-radius: 6px;
+           padding: 12px;
+        }
+
+    
+.section-modest {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1900px;
+    height: 614px;
+}
+
+   .modest-title {
+       position: absolute;
+       top: 10%;
+       left: 22%;
+       text-transform: uppercase;
+       color: #292f36; 
+    }
+   .our-mision  {
+       width: 670px;
+       height: 200px;
+       position: absolute;
+       top: 25%;
+       left: 20% ;
+    }
+
+   .buttons_social {
+       position: absolute;
+       top: 70%;
+       left: 20%
+    }
+       .fa {
+          padding: 20px;
+          font-size: 22px;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          text-decoration: none;
+          background: #c8cdd0;
+          color: white;
+        }
+        .fa:hover {
+           opacity: 0.8;
+        }
+        .squares{
+            position: absolute;
+            top: 20%;
+            right: 38%;
+        }
+        .square {
+            background:#23b7a4;
+            width: 50px;
+            height: 50px; 
+            margin: 48px;
+        }
+        .square h2 {
+            color: white;
+            text-align: center;
+            margin: 4px;
+            padding: 13px;
+        }
+
+.our-goals { 
+    width: 370px;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+} 
+
+    h2 {
+       text-transform: uppercase;
+       font-size: 18px;
+       color: #292f36;
+    }
+    p {
+       font-size: 16px;
+       color: #abadaf;
+    }
+
+.section-team {
+   position: relative;
+   width: 1900px;
+   height: 614px;
+   margin: 0 auto;
+}
+
+   .team-title {
+       position: absolute;
+       top: 10%;
+       left: 22%;
+       color: #292f36;
+   }
+   .cards-person {
+       margin: 0 auto;
+       position: absolute;
+       top: 25%;
+       left: 20%;
+       right: 20%;
+    }
+       .card-p {
+           display:inline-block;
+           text-align: center;
+           margin: 12px;
+           background-color: #e1e6ea;
+           position: relative;
+        }
+       .card-p:hover{
+           opacity: 75%;
+           background: #3a454d ;
+        }
+           .card-p h2 {
+              color: #292f36;
+           }
+           .card-p:hover h2 {
+              color: white;
+           }
+           .card-p:hover p {
+              color: white;
+           }
+
+           .card-p:hover .pseudo-buttons-social {
+              display: block;
+            }
+
+               .pseudo-buttons-social {
+                  display: none;
+                  position: absolute;
+                  top: 30%;
+                  left: 14%;
+               }
+                   .pseudo-buttons-social .fa{
+                      background: #3a454d;
+                    }
+.section-work {
+   width: 1900px;
+   height: 899px;
+   background: #3a454d ;
+   margin: 0 auto;
+   position: relative;
+}
+   .section-work h1 {
+     color: white;
+     position: absolute;
+     top: 8%;
+     left: 22%;
+   }
+
+   .cards-work {
+      margin: 0 auto;
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      right: 20%;
+   }
+      .card-w {
+        display:inline-block;
+        text-align: center;
+        margin: 12px;
+        position: relative;
+      }
+      .card-w:hover{
+        opacity: 75%;
+      }
+        .card-w:hover .rectangle {
+           display: block;
+         }
+        .card-w:hover .pseudo-button i{
+          display: block;
+        }
+
+        .rectangle {
+          display: none;
+          background: #292f36;
+          width: 352px;
+          height: 59px;
+          position: absolute;
+          top: 77%;
+          left: auto;
+          right: auto;
+         }
+
+           .rectangle h2 {
+              color: white;
+              text-align: left;
+              margin: 4px;
+              padding: 13px;
+            }
+
+        .pseudo-button i {
+           display: none;
+           position: absolute;
+           top: 28%;
+           left: 43%;
+           right: 40%;
+           font-size: 20px;
+           color: white;
+           background: none;
+         }
+
+   .section-work .btns {
+      position: absolute;
+      top: 105%;
+      left: 43%;
+   }
+
+.section-services {
+   width: 1900px;
+   height: 900px;
+   margin: 0 auto;
+   position: relative;
+}
+  .section-services h1 {
+     color:  #292f36; 
+     position: absolute;
+     top: 8%;
+     left: 22%;
+  }
+  .services-icons {
+     position: absolute;
+     top: 12%;
+     left: 20%;
+     right: 20%;
+   }
+     .services-icon {
+        display: inline-block;
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+     }
+     .services-icon h2 {
+        color: #292f36;
+     }
+      .services-icon i{
+        font-size: 60px;
+        margin: 50px;
+        color: #23b7a4;
+        background: none;
+      }
+
+.section-features {
+   width: 1900px;
+   height: 900px;
+   margin: 0 auto;
+   position: relative;
+   background-color:#3a454d;
+}
+  .features-cards {
+     margin: 0 auto;
+     position: absolute;
+     top: 27%;
+     left: 20%;
+     right: 20%;
+   }
+     .card-f {
+       display: inline-block;
+       text-align: left;
+       margin: 8px;
+     }
+     .section-features h1 {
+        position: absolute;
+        top: 10%;
+        left: 22%;
+        color: white;
+     }
+     .section-features h2 {
+        color: white;
+        margin-top: 60px;
+     }
+     .section-features p {
+        margin-top: 50px;
+     }
+
+.contact {
+   position: relative;
+   height: 870px;
+   width: 1900px;
+   border: 2px solid red;
+   margin: 0 auto;
+}
+iframe {
+   height: 350px;
+   width: 1900px;
+   position: absolute;
+   top: 20%;
+   left: auto;
+   right: auto;
+}
+.contact h1{
+   position: absolute;
+   top: 6%;
+   left: 22%;
+   color: #292f36;
+}
