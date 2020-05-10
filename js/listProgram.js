@@ -1,4 +1,0 @@
-var faker = require('faker');
-
-
-
