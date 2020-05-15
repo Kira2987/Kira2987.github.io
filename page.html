@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head> 
 
 <body>
@@ -30,6 +33,32 @@
  </div>
 
   <div class="section-welcome">    
+    
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="image/banana.jpg" alt="">
+        </div>
+    
+        <div class="item">
+          <img src="image/breakfast.jpg" alt="">
+        </div>
+    
+        <div class="item">
+          <img src="image/flower.png" alt="">
+        </div>
+      </div>
+    
+    </div>
+
+
     <div class="welcome">
       <h1>Welcome to our marketplace</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor<br>
@@ -40,31 +69,6 @@
       </div>
     </div>
 
-
-    <div class="slideshow-container">
-
-      <div class="mySlides fade">
-        <img src="image/banana.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="image/breakfast.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="image/flower.png" style="width:100%">
-      </div>
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <div class="points">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
 
   </div>
     
@@ -112,6 +116,8 @@
     </div>
   </div>
 
+  <div class="line"></div>
+
   <div class="section-team">
     <div class="figure"></div>
     <div class="team-title"> 
@@ -120,7 +126,7 @@
 
    <div class="cards-person">
      <div class="card-p" >
-       <img src="image/gloria.jpg" alt="" style="width: 16rem;">
+       <img src="image/gloria.jpg" alt="" style="width: 25rem;">
        <h2>Gloria Bromley</h2>
        <p>CEO and Founder</p>
        <div class=" pseudo-buttons-social">
@@ -131,7 +137,7 @@
      </div>
 
      <div class="card-p">
-       <img src="image/paul.jpg" alt="" style="width: 16rem;">
+       <img src="image/paul.jpg" alt="" style="width: 25rem;">
        <h2>Paul Torres</h2>
        <p>Head of development</p>
        <div class=" pseudo-buttons-social">
@@ -142,7 +148,7 @@
      </div>
 
      <div class="card-p"> 
-       <img src="image/judith.jpg" alt="" style="width: 16rem;">
+       <img src="image/judith.jpg" alt="" style="width: 25rem;">
        <h2>Judith Gillette</h2>
        <p>graphic desinger</p>
        <div class=" pseudo-buttons-social">
@@ -153,7 +159,7 @@
      </div>
 
      <div class="card-p">
-       <img src="image/delores.jpg" alt="" style="width: 16rem;">
+       <img src="image/delores.jpg" alt="" style="width: 25rem;">
        <h2>Delores Reed</h2>
        <p>client service director</p>
        <div class=" pseudo-buttons-social">
@@ -167,54 +173,60 @@
  <div class="section-work">
   <div class="figure"></div>
    <h1>lovely work.</h1>
-   <div class="cards-work">
-      <div class="card-w">
-        <img src="image/pic-1.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
+    <div class="cards-work">
+
+     <div class="card-w-part-1">
+       <div class="card-w">
+          <img src="image/pic-1.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
+        </div>
+
+        <div class="card-w">
+          <img src="image/pic-2.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
+        </div>
+
+        <div class="card-w">
+          <img src="image/pic-3.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
         </div>
       </div>
 
-      <div class="card-w">
-        <img src="image/pic-2.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
+      
+      <div class="card-w-part-2">
+        <div class="card-w">
+          <img src="image/pic-4.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
         </div>
-      </div>
 
-      <div class="card-w">
-        <img src="image/pic-3.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
+        <div class="card-w">
+          <img src="image/pic-5.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
         </div>
-      </div>
 
-      <div class="card-w">
-        <img src="image/pic-4.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
+        <div class="card-w">
+          <img src="image/pic-6.jpg" alt="" style="width: 35rem;">
+          <div class=" pseudo-button">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <div class="rectangle"><h2>Partnership guidlines</h2></div>
+          </div>
         </div>
-      </div>
-
-      <div class="card-w">
-        <img src="image/pic-5.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
-        </div>
-      </div>
-
-      <div class="card-w">
-        <img src="image/pic-6.jpg" alt="" style="width: 22rem;">
-        <div class=" pseudo-button">
-          <i class="fa fa-plus" aria-hidden="true"></i>
-          <div class="rectangle"><h2>Partnership guidlines</h2></div>
-        </div>
-      </div>
+     </div>
 
       <div class="btns">
         <a href="#">Show me more</a>

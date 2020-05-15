@@ -2,6 +2,7 @@ p {
    font-size: 16px;
    line-height: 27px;
 }
+
 .menu { 
     background-color: #1d2126;
     width: 1900px;
@@ -33,6 +34,7 @@ p {
            list-style: none;
            margin-top: 20px;
            margin: 8px;
+           padding-top: 20px;
         }
 
        .menu ul li a {
@@ -61,7 +63,6 @@ p {
     max-width: 1900px;
     position: relative;
     padding-top: 0;
-    background-image: url(../image/flower.png);
     height: 660px;
     margin: 0 auto;  
 }
@@ -95,51 +96,23 @@ p {
            border: 2px solid #23b7a4;
            transition: 0.5s ease;
         }
-   
-        
-   .slideshow-container {
-      max-width: 1900px;
-      position: relative;
-      margin: auto;
-   }
-        
-      .mySlides {
-         display: none;
-      }
-        
-      .prev, .next {
-         cursor: pointer;
-         position: absolute;
-         top: 75%;
-         width: auto;
-         margin-top: 300px;
-         padding: 16px;
-         color: white;
-         font-weight: bold;
-         font-size: 18px;
-         transition: 0.6s ease;
-         border-radius: 0 3px 3px 0;
-         user-select: none;
-         display: none;
-      }
-      
-      .next {
-         right: 0;
-         border-radius: 3px 0 0  3px;
-      }
 
-      .prev:hover, .next:hover {
-         opacity: 70%;
-      }
-
-      .points {
+      /*
+       .changes {
+           margin: 0 auto;
+        }
+     
+      .carousel ol .carousel-indicators .changes {
          position: absolute;
          top: 620px;
          right: 380px;
          margin: 0 auto;
       }
-        
-        .dot {
+      .myCaroules:hover {
+         transition: background-color 0.5s ease;
+      }
+     
+        #myCarousel {
            cursor: pointer;
            height: 10px;
            width: 10px;
@@ -149,11 +122,7 @@ p {
            display: inline-block;
            transition: background-color 0.5s ease;
         }
-        
-        .active, .dot:hover {
-          background-color: white;
-        }
-        
+        */
        
     
 .section-modest {
@@ -195,14 +164,14 @@ p {
        .fa {
           padding: 20px;
           font-size: 22px;
-          width: 20px;
-          height: 20px;
-          text-align: center;
+          width: 60px;
+          height: 60px;
           text-decoration: none;
           background: #c8cdd0;
           color: white;
           transition: 0.5s ease;
-        }
+         }
+
         .fa:hover {
            opacity: 0.8;
         }
@@ -239,7 +208,14 @@ p {
     p {
        font-size: 16px;
        color: #abadaf;
+       margin-top: 15px;
     }
+
+.line {
+  height: 3px;
+  background-color:  #e1e6ea;
+}
+
 
 .section-team {
    position: relative;
@@ -255,16 +231,15 @@ p {
        color: #292f36;
    }
    .cards-person {
-       margin: 0 auto;
-       position: absolute;
-       top: 140px;
-       left: 377px;
-       right: 37px ;
+       display: flex;
+       justify-content: center;
+       padding-top: 160px;
+
     }
        .card-p {
            display:inline-block;
            text-align: center;
-           margin: 12px;
+           margin: 15px;
            background-color: #e1e6ea;
            position: relative;
            transition: 0.6s ease;
@@ -293,7 +268,7 @@ p {
                   display: none;
                   position: absolute;
                   top: 30%;
-                  left: 14%;
+                  left: 12%;
                   transition: 0.6s ease;
                }
                    .pseudo-buttons-social .fa{
@@ -322,12 +297,19 @@ p {
       left: 377px;
       right: 377px;
    }
+   .card-w-part-1 {
+      display: flex;
+      justify-content: center;
+   }
+   .card-w-part-2 {
+      display: flex;
+      justify-content: center;
+   }
       .card-w {
         display:inline-block;
         text-align: center;
-        margin: 12px;
+        margin: 14px;
         position: relative;
-        
       }
       .card-w:hover{
         opacity: 75%;
@@ -392,8 +374,8 @@ p {
   .services-icons {
      position: absolute;
      top: 120px;
-     left: 377px;
-     right: 377px ;
+     left: 375px;
+     right: 375px ;
      margin: 0 auto;
    }
      .services-icons-part1 {
@@ -403,12 +385,13 @@ p {
      .services-icons-part2 {
         display: flex;
         justify-content: center;
+        margin-top: -40px;
      }
    
      .services-icon {
         display: inline-block;
         text-align: center;
-        margin: 26px;
+        margin: 20px;
      }
      .services-icon h2 {
         color: #292f36;
